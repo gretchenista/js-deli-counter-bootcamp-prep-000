@@ -18,8 +18,7 @@ function nowServing (deliLine, name) {
 function currentLine (line) {
  var i = 0;
  if (line.length > 0) {
-   
-   for (i = 0; line.length; i++) {
+   for (let i = 0; i < line.length; i++) {
    line.push ("The line is currently " + [i] + ". " + line[i] + ", ");
    }
  } else {
